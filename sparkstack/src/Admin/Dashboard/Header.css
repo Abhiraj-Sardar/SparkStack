@@ -1,0 +1,15 @@
+.header h1{
+    padding-top: 1rem;
+    color:#eee;
+}
+
+.header h5{
+    color:#eee;
+}
+.profile .img{
+    margin-top: 0.5rem;
+}
+
+.profile .img img{
+    border-radius: 50%;
+}
