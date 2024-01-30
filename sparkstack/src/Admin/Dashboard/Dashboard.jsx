@@ -1,19 +1,23 @@
 import React from "react";
 import "./Dashboard.css";
-import Header from "./Header";
-import Cards from "./Cards";
-// import Sidebar from "./Sidebar";
+import Home from "./Home";
+import AI from "./AI";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Web from "./Web";
+import SDE from "./SDE";
+import TechGiants from "./TechGiants";
 const Dashboard = ()=>{
     return(
-        <div className="row">
-            <div className="col-2">
-            <Sidebar/>
-            </div>
-            <div className="col-10">
-                <Header/>
-                <Cards/>
-            </div>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                    <Route exact path="/" element={<Home/>}></Route>
+                    <Route exact path="/default" element={<Home/>}></Route>
+                    <Route exact path="/AI" element={<AI/>}></Route>
+                    <Route exact path="/Web" element={<Web/>}></Route>
+                    <Route exact path="/Sde" element={<SDE/>}></Route>
+                    <Route exact path="/Tgiants" element={<TechGiants/>}></Route>
+            </Routes>
+        </BrowserRouter>
     )
 }
 
