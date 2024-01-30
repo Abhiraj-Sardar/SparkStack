@@ -35,7 +35,7 @@
 .sydbar ul li:hover{
     background-color: rgb(107, 2, 107);
     border-radius: 2px;
-    transition: 0.5s all;
+    transition: 0.8s all;
     color:white;
 }
 
