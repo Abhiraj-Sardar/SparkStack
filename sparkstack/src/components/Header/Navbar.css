@@ -1,0 +1,93 @@
+/* For Home Button */
+#dropdownNavbarLink {
+    display: inline-block; /* Ensure the button is treated as a block to allow setting width and height */
+    position: relative; /* Position relative for absolute positioning of the pseudo-element */
+  }
+  
+  #dropdownNavbarLink::after {
+    content: ' '; /* Create a pseudo-element for the border */
+    position: absolute; /* Position the pseudo-element absolutely */
+    bottom: 0; /* Align the pseudo-element at the bottom */
+    left: 0; /* Align the pseudo-element at the left */
+    width: 100%; /* Make the pseudo-element span the full width */
+    height: 3px; /* Set the height of the border */
+    background-color: transparent; /* Initial border color is transparent */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for the background color */
+    margin-bottom: -5px;
+
+  }
+  
+  #dropdownNavbarLink:hover::after {
+    background-color: red; /* Change the background color to red on hover */
+  }
+  
+  
+/* For all Normal Menus */
+
+#navbar-user ul li a {
+    position: relative;
+  }
+  
+  #navbar-user ul li a::after {
+    content: '';
+    margin-bottom: -5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: transparent; /* Initial underline color */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for the underline */
+  }
+  
+  #navbar-user ul li a:hover::after {
+    background-color: red; /* Change the underline color to red on hover */
+  }
+  
+
+  /* Tool Tip */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    /* background-color: red; */
+    color: #eee;
+    
+   
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 660px;
+    background-color: #28282817;
+    color: red;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: smaller;
+
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #28282817 transparent transparent transparent;
+    transform: translateX(-50%);
+  }
+  

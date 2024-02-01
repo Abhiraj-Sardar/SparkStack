@@ -16,9 +16,9 @@ const Sidebar = () => {
                         <li><NavLink to={'/Web'} className={'name'}>Web Development</NavLink></li>
                         <li><NavLink to={"/Sde"} className={"name"}>SDE</NavLink></li>
                         <li><NavLink to={"/Tgiants"} className={"name"}>Tech Giants</NavLink></li>
-                        <li><NavLink to={"/Job"} className={"name"}>Technical Jobs</NavLink></li>
+                        <li><NavLink to={"/TechJobs"} className={"name"}>Technical Jobs</NavLink></li>
                         <li><NavLink to={"/Mobile"} className={"name"}>Mobile and Accessories</NavLink></li>
-                        <li><NavLink to={"/AI"} className={"name"}>Facts</NavLink></li>
+                        <li><NavLink to={"/Facts"} className={"name"}>Facts</NavLink></li>
                     </ul>
                 </nav>
             </div>
