@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+.main{
+    background-color: #F8F4EC;
+}
+.container{
+    min-height:100vh;
+    /* background-color: aquamarine; */
+}
+.container h1{
+    color: gray;
+    text-align: center;
+    font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-top:10rem;
+    text-shadow: 2px 2px 2px rgb(165, 163, 160)
+}
+
+.grow{
+    animation-name: Grow;
+    animation-duration:3s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+
+.main .theme-changer{
+    background-color: red;
+}
+.main .theme-changer .theme{
+    height:70px;
+    width: 5%;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top:5rem;
+    left:90rem;
+    background-image: url("../../../public/img/sun.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+@keyframes Grow {
+    0%{
+        Scale:calc(1.2);
+    }
+    100%{
+        Scale:calc(1.5);
+    }
+}
+

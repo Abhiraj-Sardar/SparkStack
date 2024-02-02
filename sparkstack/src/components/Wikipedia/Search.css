@@ -1,0 +1,24 @@
+.searchbar{
+    margin-left: 14rem;
+}
+
+.searchbar::placeholder{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    margin-bottom: 5px;
+    margin-left: 12px;
+}
+.search-results-list{
+    /* border: 2px solid black; */
+    min-height:auto;
+    text-align: center;
+}
+
+.search-results-list p{
+    
+}
+
+
