@@ -32,7 +32,7 @@
     height:70px;
     width: 5%;
     border-radius: 50%;
-    background-color: yellow;
+    /* background-color: yellow; */
     position: absolute;
     top:5rem;
     left:90rem;
@@ -49,4 +49,14 @@
         Scale:calc(1.5);
     }
 }
+
+/* .light{
+    background-color: #fff;
+    color:#333,
+}
+.dark{
+    background-color: #333;
+    color:#fff,
+} */
+
 
