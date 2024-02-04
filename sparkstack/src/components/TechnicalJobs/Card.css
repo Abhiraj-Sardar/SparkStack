@@ -1,0 +1,58 @@
+.jobcard{
+    height:17rem;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.jobcard:hover{
+    transform: scale(1.05);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.jobcard .company-name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jobcard .created-at{
+    float: right;
+    margin-right: 12px;
+}
+
+.jobcard .role{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.jobcard .location{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-left: 12px;
+    margin-bottom: 7px;
+}
+
+.jobcard .job-type{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+
+.jobcard .tags{
+    width:20%;
+    margin-left: 12px;
+}
+
+.jobcard .btn{
+    width:30%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}

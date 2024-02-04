@@ -1,0 +1,8 @@
+#jobsContainer{
+    height:86vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    /* border:2px solid red; */
+    overflow-y: scroll;
+}

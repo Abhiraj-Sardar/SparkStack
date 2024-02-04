@@ -10,11 +10,11 @@ import WikiPedia from './components/Wikipedia/WikiPedia';
 function App() {
   return (
       <div className="App">
-        {/* <JobPortal /> */}
+        <JobPortal />
         {/* <Navbar/>
         <Card/>
         <Footer/> */}
-        <WikiPedia/>
+        {/* <WikiPedia/> */}
       </div>
   );
 }

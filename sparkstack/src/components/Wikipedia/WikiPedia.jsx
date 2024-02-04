@@ -10,11 +10,10 @@ const WikiPedia = () => {
             <div className="theme-changer">
                 <div className="theme" onClick={()=>{
                     var main=document.querySelector(".main");
-                    
-                    if(counter%2!=0)
+                    if(counter%2!==0)
                     {
                         main.style.backgroundColor="#333";
-                        document.querySelector(".searchbar").style.color="#fff";
+                        document.querySelector(".searchbar").style.color="#fff"; 
                         setCounter(counter+1)
                     }
                     else{
