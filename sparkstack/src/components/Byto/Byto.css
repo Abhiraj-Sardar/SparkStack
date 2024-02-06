@@ -1,0 +1,120 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(29, 24, 24);
+    color: whitesmoke;
+}
+.menu{
+    height:60px;
+    background-color: black;
+    padding-top: 13px;
+}
+  
+.menu nav ul li{
+    display:inline-block;
+    color:white;
+    margin-left: 15px ;
+    font-size: 17px;
+    padding: 3px 25px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.menu nav ul li:hover{
+    border-bottom: 2px solid red;
+}
+
+.menu nav ul li:hover{
+    border-bottom: 2px solid red;
+}
+
+.dropdown{
+    display:inline-block;
+    position: relative;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+}
+
+.cont{
+    padding:0px 40px;
+}
+
+.cardh{
+    margin-top:10px;
+}
+
+.card1{
+    cursor: pointer;
+    color:whitesmoke;
+    background: #0f0c29;  /* fallback for old browsers */
+    	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    outline: 1px solid white;
+    padding:0px;
+    display: inline-block;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin:2rem;
+    border-radius: 5%;
+}
+
+.card1 img{
+    display: flex;
+    float:inline-start;
+    padding-right:25px;
+}
+
+.card-text, .txt{
+    font-size:small ;
+    padding-bottom: 10px;
+}
+
+.txtb{
+    font-size:small ;
+    background-color: rgb(237, 76, 76);
+    max-width: fit-content;
+    border-radius: 10px;
+    padding:0px 8px;
+    margin-top: 12px;
+    padding-bottom: 2px;
+}
+
+.card-title{
+    font-weight: 500;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 1200px) {
+    .column {
+      width: 33%;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+      width: 50%;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+}
+
+  

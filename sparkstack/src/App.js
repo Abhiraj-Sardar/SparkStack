@@ -4,17 +4,20 @@ import Navbar from './components/Header/Navbar';
 import Card from "./components/Accessories/Card"
 import JobPortal from './components/TechnicalJobs/JobPortal';
 import WikiPedia from './components/Wikipedia/WikiPedia';
-// import Stay from "./components/Stay";
+import Stay from "./components/Stay";
 // import Dashboard from './Admin/Dashboard/Dashboard';
-
+import Byto from "./components/Byto/Byto"
 function App() {
   return (
       <div className="App">
-        <JobPortal />
+        {/* <JobPortal /> */}
         {/* <Navbar/>
         <Card/>
         <Footer/> */}
-        {/* <WikiPedia/> */}
+        <WikiPedia/>
+        {/* <Byto/>
+        <Stay/> */}
+        {/* <Footer/> */}
       </div>
   );
 }
