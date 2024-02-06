@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* .card-img-top{
+    width: 300px;
+    height: 200px;
+} */
+
+.card{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+
+    
+}

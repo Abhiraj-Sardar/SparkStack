@@ -59,4 +59,20 @@
     color:#fff,
 } */
 
+.column{
+    width:30%;
+    padding:0 12px;
+}
+
+@media screen and (max-width:1200px){
+    .column{
+        width:33%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .column{
+        width:33%;
+    }
+}
 

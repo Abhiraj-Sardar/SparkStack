@@ -2,10 +2,13 @@ import React,{useState} from 'react'
 import "./WikiPedia.css"
 import Search from './Search'
 import './Search.css'
+import Header from '../Header/Header'
 
 const WikiPedia = () => {
     const [counter,setCounter]=useState(1);
     return (
+        <>
+        <Header/>
         <div className="container-fluid main">
             <div className="theme-changer">
                 <div className="theme" onClick={()=>{
@@ -30,13 +33,13 @@ const WikiPedia = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12">
+                    <div className="column col-12">
                         <Search/>
                     </div>
                 </div>
             </div>
         </div>
-
+        </>
 
     )
 }

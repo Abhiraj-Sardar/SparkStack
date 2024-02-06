@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav{
+    height:70px;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.heading {
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-custom {
+    background-color: #111827;
+}
+
+.navbar-custom ul li a {
+    color: white !important;
+    font-weight: bolder;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-custom ul li a:hover {
+    color: white;
+    font-weight: bolder;
+    color: #FF0000;
+}
+
+/* Add red underline bar on hover */
+.navbar-custom ul li a:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    height: 5px;
+    background-color: #FF0000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar-custom .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    color: #FF0000;
+}
+
+.navbar-custom .nav-item.dropdown:hover .nav-link {
+    background-color: #111827;
+    color: #FF0000;
+}
+
+.navbar-custom .nav-item.dropdown .dropdown-menu {
+    background-color: #111827;
+}
+
+.navbar-custom .nav-item.dropdown .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-item.dropdown .dropdown-item:hover {
+    background-color: #1f2a48;
+    color: #FF0000;
+}
+
+.navbar-toggler{
+    background-color:white;
+}
+
+@media (min-width: 768px) 
+{.navbar-collapse.collapse {
+        display: flex !important;
+    }
+}

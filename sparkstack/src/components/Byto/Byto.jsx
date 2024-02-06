@@ -1,10 +1,12 @@
 import React from "react";
 
 import "./Byto.css";
+import Header from "../Header/Header";
 
 const Byto = () =>{
     return(
         <>
+        <Header/>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 menu">

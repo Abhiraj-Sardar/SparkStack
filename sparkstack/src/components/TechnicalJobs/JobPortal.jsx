@@ -1,10 +1,13 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import "./JobPortal.css";
+import Header from '../Header/Header';
 import Jobs from './Jobs';
 
 const JobPortal = () => {
   return (
+    <>
+    <Header/>
     <div className="container-fluid">
         <div className="row">
             <div class="col-md-2" id="sidebar">
@@ -15,6 +18,7 @@ const JobPortal = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
