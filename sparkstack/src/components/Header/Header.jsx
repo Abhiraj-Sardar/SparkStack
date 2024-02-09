@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <>
             <nav className="sticky-top navbar navbar-expand-lg navbar-light navbar-custom">
-                <div className="container">
+                <div className="container responsive-menu">
                 
 
                 <div className="d-flex align-items-center mr-3">
@@ -26,28 +26,23 @@ const Header = () => {
                         <ul className="navbar-nav ml-auto mx-auto my-2 my-lg-0">
 
                             <li className="nav-item dropdown">
-                            <NavLink to={'/'} className={"name"}>Home</NavLink>
+                            <NavLink to={'/'} className={"navigation"}>Home</NavLink>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#">AI</a>
-                                    <a className="dropdown-item" href="#">Web Development</a>
-                                    <a className="dropdown-item" href="#">SDE</a>
-                                    <a className="dropdown-item" href="#">Tech Giants</a>
+                                    <a className="dropdown-item item" href="#">AI</a>
+                                    <a className="dropdown-item item" href="#">Web Development</a>
+                                    <a className="dropdown-item item" href="#">SDE</a>
+                                    <a className="dropdown-item item" href="#">Tech Giants</a>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Sign out</a>
+                                    <a className="dropdown-item item" href="#">Sign out</a>
                                 </div>
                             </li>
 
-                            <li className="nav-item">
-                            <NavLink to={'/Articles'} className={"name"}>Article</NavLink>
-                               
-                            </li>
-                            <li className="nav-item"><NavLink to={'/TechJobs'} className={"name"}>Tech Jobs</NavLink></li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Facts</a>
-                            </li>
-                            <li className="nav-item"><NavLink to={'/Gadgets'} className={"name"}>Gadgets</NavLink></li>                
-                            <li className="nav-item"><NavLink to={'/Byto'} className={"name"}>Byto</NavLink></li>
-                            <li className="nav-item"><NavLink to={'/WikiPedia'} className={"name"}>Wikipedia</NavLink></li>
+                            <li className="nav-item"><NavLink to={'/Articles'} className={"navigation"}>Article</NavLink></li>
+                            <li className="nav-item"><NavLink to={'/TechJobs'} className={"navigation"}>Tech Jobs</NavLink></li>
+                            <li className="nav-item"><NavLink to={'/Articles'} className={"navigation"}>Facts</NavLink></li>
+                            <li className="nav-item"><NavLink to={'/Gadgets'} className={"navigation"}>Gadgets</NavLink></li>                
+                            <li className="nav-item"><NavLink to={'/Byto'} className={"navigation"}>Byto</NavLink></li>
+                            <li className="nav-item"><NavLink to={'/WikiPedia'} className={"navigation"}>Wikipedia</NavLink></li>
                         </ul>
                         <FontAwesomeIcon icon={faPowerOff} style={{color: "#ffffff", cursor:'pointer', border:'1px solid white', padding:'5px', borderRadius: '15px', height:'20px'}} />
                     
@@ -58,4 +53,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Header;

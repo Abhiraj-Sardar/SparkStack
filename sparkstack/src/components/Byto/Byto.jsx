@@ -9,11 +9,12 @@ const Byto = () =>{
         <Header/>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 menu">
+                    <div className="col-12 col-sm-4"></div>
+                    <div className="sticky-bottom col-12 col-sm-4 menu">
                         <nav>
                             <ul>
-                            <div className="dropdown">
-                                <li className="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Role</li>
+                                <div className="dropdown  dropdown-byto" style={{marginLeft:"2.3rem"}}>
+                                <li className="dropdown-toggle "  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Role</li>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
@@ -21,7 +22,7 @@ const Byto = () =>{
                                 </div>
                             </div>
 
-                            <div className="dropdown">
+                            <div className="dropdown  dropdown-byto">
                                 <li className="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experience</li>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">Action</a>
@@ -30,7 +31,7 @@ const Byto = () =>{
                                 </div>
                             </div>
 
-                            <div className="dropdown">
+                            <div className="dropdown  dropdown-byto option1">
                                 <li className="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</li>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">Action</a>
@@ -39,9 +40,9 @@ const Byto = () =>{
                                 </div>
                             </div>
 
-                            <div className="dropdown">
+                            <div className="dropdown  dropdown-byto">
                                 <li className="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</li>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="dropdown-menu menu1" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
                                     <a class="dropdown-item" href="#">Something else here</a>
@@ -50,6 +51,7 @@ const Byto = () =>{
                             </ul>
                         </nav>
                     </div>
+                    <div className="col-12 col-sm-4"></div>
                 </div>
             </div>
 
@@ -60,7 +62,7 @@ const Byto = () =>{
                     <div className="column">
                         <div className="card1 cardh mt-5">
                             <div className="card-body">
-                            <img src="img/logo.png" height={'20px'} alt="..."></img>
+                            <img src="img/logo.png" height={'50px'} alt="..."></img>
                             <div className="card-text txt">RNTBCI PL</div>
                                 <div className="card-title">Tool Development and Automation Engineer</div>
                                 <div className="card-text txt">C | C++ | Python | Java</div>
