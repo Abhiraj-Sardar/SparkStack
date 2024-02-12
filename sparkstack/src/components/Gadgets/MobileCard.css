@@ -1,21 +1,82 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-.btn{
-    font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
 
 /* .card-img-top{
     width: 300px;
     height: 200px;
 } */
 
-.card{
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-
-
+.card-container{
     
+}
+
+.right-side,.center-side,.left-side{
+    /* border:2px solid black; */
+}
+
+.center-side{
+ /* background-color: #eee; */
+}
+
+.center-side .gadget-card{
+    /* background-color: red; */
+    height: 9rem;
+    display: flex;
+   }
+
+.gadget-card .gadget-image{
+    height: 9rem;
+    width:20%;
+    /* background-color: #eee; */
+}
+
+.gadget-card .gadget-desc{
+    height: 9rem;
+    width:80%;
+    /* background-color: green; */
+}
+
+.gadget-card .gadget-desc h4{
+ padding:2px 0 0 15px;
+}
+
+.gadget-card .gadget-desc p{
+    padding:2px 0 0 15px;
+}
+
+
+.gadget-card .gadget-desc h5{
+ color: red;
+ padding:2px 0 0 15px;
+}
+
+.gadget-card .gadget-desc h4:hover{
+    color: red;
+}
+
+
+.left-side{
+    background-color: #eee;
+    min-height:100vh;
+}
+
+.left-side h4{
+    margin: 12px 0 0 12px;
+    color: red;
+}
+
+.left-side h4:hover{
+    color: black;
+}
+
+.right-side{
+    background-color: #eee;
+    min-height:100vh;
+}
+
+.right-side h4{
+    margin: 12px 0 0 12px;
+    color: red;
+}
+
+.right-side h4:hover{
+    color: black;
 }
