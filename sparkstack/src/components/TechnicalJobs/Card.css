@@ -56,3 +56,19 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
+
+
+
+.company-name img{
+    border-radius: 100%;
+    height: 50px;
+    float: left;
+    width: 20%;
+    margin: 1px 0 0 1px;
+    /* border:2px solid black; */
+}
+
+.company-name span{
+    /* border:2px solid black; */
+    margin-right: 4rem;
+}

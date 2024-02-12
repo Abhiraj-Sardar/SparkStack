@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+.selectpicker option:focus{
+    background-color: #343a40;
+}
+
 #job-list {
     padding: 20px;
     /* border:2px solid green; */

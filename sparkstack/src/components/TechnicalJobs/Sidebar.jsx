@@ -1,35 +1,60 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { ChakraProvider, Button} from '@chakra-ui/react'
+import SidebarData from './Data/SidebarData';
+import CompanyData from './Data/CompanyData';
+import JobtypeData from './Data/JobtypeData';
 const Sidebar = () => {
+    const [jobs]=useState(SidebarData);
+    const [company]=useState(CompanyData);
+    const [jobtype]=useState(JobtypeData);
     return (
         <>
             <h2 class="mt-3">Filter Jobs</h2>
             <form id="filterForm">
                 <div class="form-group">
+                <select class="form-control selectpicker" data-live-search="true" id="roleFilter">
                     <label for="roleFilter">Job Role:</label>
-                    <select class="form-control selectpicker" data-live-search="true" id="roleFilter">
-                        <option value="">All</option>
-                        <option value="developer">Developer</option>
-                        <option value="designer">Designer</option>
-                        <option value="analyst">Analyst</option>
-                        {/* <!-- Add more job roles as needed --> */}
+                    {
+                        jobs.map((jobs,i)=>{
+                            return(
+                                // console.log(jobs[i].job)
+                                <option>{jobs.job}</option>
+                            )
+                        })
+                    }
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Experience Level:</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="entry" id="entryLevel" />
-                        <label class="form-check-label" for="entryLevel">Entry Level</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="mid" id="midLevel" />
-                        <label class="form-check-label" for="midLevel">Mid Level</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="senior" id="seniorLevel" />
-                        <label class="form-check-label" for="seniorLevel">Senior Level</label>
-                    </div>
+                    <label>Job Type:</label>
+                    {
+                        jobtype.map((jobtype)=>{
+                            return(
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="entry" id="entryLevel" />
+                                <label class="form-check-label" for="entryLevel">{jobtype.type}</label>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
+
+                <div class="form-group">
+                    <label>Company:</label>
+                    {
+                        company.map((company)=>{
+                            return(
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="entry" id="entryLevel" />
+                                    <label class="form-check-label" for="entryLevel">{company.name}</label>
+                                </div>
+                            )
+                        })
+                    }
+                    
+                    
+                </div>
+
+
                 <ChakraProvider>
 
 
