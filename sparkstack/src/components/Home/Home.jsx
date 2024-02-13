@@ -1,7 +1,6 @@
 import React from 'react'
 import './index_home.css'
-import Header from '../Header/Header';
-
+import Footer from "../Footer/Footer";
 function Home() {
     return (
         <>
@@ -329,6 +328,7 @@ function Home() {
             </div>
 
         </div>
+        <Footer/>
         </>
     )
 }

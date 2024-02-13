@@ -1,0 +1,46 @@
+/* In your external stylesheet or within a style block */
+.custom-footer {
+    background-color: #111827;
+}
+
+.border-on-hover:hover {
+    border-color: #ff0000 !important;
+  }
+.btn.btn-outline-light:hover {
+    background-color: #ff0000; /* Red background on hover */
+}
+
+.btn.btn-outline-light:hover i {
+    color: #ffffff !important; 
+}
+.red-border {
+    border: 1px solid red;
+}
+
+.red-border:hover {
+    border: 2px solid #007bff; 
+}
+
+.col-auto .btn{
+    background-color: #ff0000;
+    font-weight: 5px;
+    border: none;;
+}
+.text-uppercase{
+    color: #ff0000;
+}
+.down-link {
+    color: #ff0000;
+}
+.down-link a {
+    text-decoration: none; 
+}
+.text-center a{
+    text-decoration: none; 
+}
+strong{
+    color: #ff0000;
+}
+footer{
+    background-color: #111827;
+}

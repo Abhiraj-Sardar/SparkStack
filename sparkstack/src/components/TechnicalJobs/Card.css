@@ -1,5 +1,5 @@
 .jobcard{
-    height:17rem;
+    height:18rem;
     width: 30%;
     border: 2px solid black;
     border-radius: 5%;
@@ -55,6 +55,7 @@
     width:30%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+    margin-top: 1rem;
 }
 
 
@@ -66,6 +67,7 @@
     width: 20%;
     margin: 1px 0 0 1px;
     /* border:2px solid black; */
+    background-size: cover;
 }
 
 .company-name span{

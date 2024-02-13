@@ -39,7 +39,7 @@ const Header = () => {
 
                             <li className="nav-item"><NavLink to={'/Articles'} className={"navigation"}>Article</NavLink></li>
                             <li className="nav-item"><NavLink to={'/TechJobs'} className={"navigation"}>Tech Jobs</NavLink></li>
-                            <li className="nav-item"><NavLink to={'/Articles'} className={"navigation"}>Facts</NavLink></li>
+                            <li className="nav-item"><NavLink to={'/Facts'} className={"navigation"}>Facts</NavLink></li>
                             <li className="nav-item"><NavLink to={'/Gadgets'} className={"navigation"}>Gadgets</NavLink></li>                
                             <li className="nav-item"><NavLink to={'/Byto'} className={"navigation"}>Byto</NavLink></li>
                             <li className="nav-item"><NavLink to={'/WikiPedia'} className={"navigation"}>Wikipedia</NavLink></li>
