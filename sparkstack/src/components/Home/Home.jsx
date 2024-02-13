@@ -1,6 +1,6 @@
 import React from 'react'
 import './index_home.css'
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/Footer"
 function Home() {
     return (
         <>
@@ -12,10 +12,10 @@ function Home() {
                         <div className="col-lg-8">
                             <div className="sn-container">
                                 <div className="sn-img">
-                                    <img src="img/news-825x525.jpg" />
+                                    <img src="home/Mozilla.webp" />
                                 </div>
                                 <div className="sn-content">
-                                    <h1 className="sn-title">Lorem ipsum dolor sit amet</h1>
+                                    <h1 className="sn-title">Mozilla downsizes as it refocuses on Firefox and AI: Read the memo</h1>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie, lorem eu eleifend bibendum, augue purus mollis sapien, non rhoncus eros leo in nunc. Donec a nulla vel turpis consectetur tempor ac vel justo. In hac habitasse platea dictumst. Cras nec sollicitudin eros. Nunc eu enim non turpis sagittis rhoncus consectetur id augue. Mauris dignissim neque felis. Phasellus mollis mi a pharetra cursus. Maecenas vulputate augue placerat lacus mattis, nec ornare risus sollicitudin.
                                     </p>
@@ -49,7 +49,7 @@ function Home() {
                                 <div className="row sn-slider">
                                     <div className="col-md-4">
                                         <div className="sn-img">
-                                            <img src="img/news-350x223-1.jpg" />
+                                            <img src="home/tiktok.webp" />
                                             <div className="sn-title">
                                                 <a href="">Interdum et fames ac ante</a>
                                             </div>
@@ -57,7 +57,7 @@ function Home() {
                                     </div>
                                     <div className="col-md-4">
                                         <div className="sn-img">
-                                            <img src="img/news-350x223-2.jpg" />
+                                            <img src="home/cambio.webp" />
                                             <div className="sn-title">
                                                 <a href="">Interdum et fames ac ante</a>
                                             </div>
@@ -65,7 +65,7 @@ function Home() {
                                     </div>
                                     <div className="col-md-4">
                                         <div className="sn-img">
-                                            <img src="img/news-350x223-3.jpg" />
+                                            <img src="home/chatgpt.webp" />
                                             <div className="sn-title">
                                                 <a href="">Interdum et fames ac ante</a>
                                             </div>
@@ -73,7 +73,7 @@ function Home() {
                                     </div>
                                     <div className="col-md-4">
                                         <div className="sn-img">
-                                            <img src="img/news-350x223-4.jpg" />
+                                            <img src="home/genai.webp" />
                                             <div className="sn-title">
                                                 <a href="">Interdum et fames ac ante</a>
                                             </div>
@@ -90,7 +90,7 @@ function Home() {
                                     <div className="news-list">
                                         <div className="nl-item">
                                             <div className="nl-img">
-                                                <img src="img/news-350x223-1.jpg" />
+                                                <img src="home/books.webp" />
                                             </div>
                                             <div className="nl-title">
                                                 <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -98,7 +98,7 @@ function Home() {
                                         </div>
                                         <div className="nl-item">
                                             <div className="nl-img">
-                                                <img src="img/news-350x223-2.jpg" />
+                                                <img src="home/money.webp" />
                                             </div>
                                             <div className="nl-title">
                                                 <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -106,7 +106,7 @@ function Home() {
                                         </div>
                                         <div className="nl-item">
                                             <div className="nl-img">
-                                                <img src="img/news-350x223-3.jpg" />
+                                                <img src="home/navidia.webp" />
                                             </div>
                                             <div className="nl-title">
                                                 <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -114,7 +114,7 @@ function Home() {
                                         </div>
                                         <div className="nl-item">
                                             <div className="nl-img">
-                                                <img src="img/news-350x223-4.jpg" />
+                                                <img src="home/networking.webp" />
                                             </div>
                                             <div className="nl-title">
                                                 <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -122,7 +122,7 @@ function Home() {
                                         </div>
                                         <div className="nl-item">
                                             <div className="nl-img">
-                                                <img src="img/news-350x223-5.jpg" />
+                                                <img src="home/tiktok.webp" />
                                             </div>
                                             <div className="nl-title">
                                                 <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -133,7 +133,7 @@ function Home() {
 
                                 <div className="sidebar-widget">
                                     <div className="image">
-                                        <a href="https://htmlcodex.com"><img src="img/ads-2.jpg" alt="Image"/></a>
+                                        <a href="https://htmlcodex.com"><img src="home/tracker.webp" alt="Image"/></a>
                                     </div>
                                 </div>
 
@@ -213,6 +213,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
+                  
                                                         <img src="img/news-350x223-2.jpg" />
                                                     </div>
                                                     <div className="tn-title">
@@ -326,10 +327,10 @@ function Home() {
                     </div>
                 </div>
             </div>
-
         </div>
-        <Footer/>
+        {/* <Footer/> */}
         </>
+
     )
 }
 export default Home;

@@ -1,9 +1,6 @@
 import './App.css';
-import Footer from './components/Footer';
-import Card from "./components/Accessories/Card"
 import JobPortal from './components/TechnicalJobs/JobPortal';
 import WikiPedia from './components/Wikipedia/WikiPedia';
-import Stay from "./components/Stay";
 // import Dashboard from './Admin/Dashboard/Dashboard';
 import Byto from "./components/Byto/Byto"
 import Header from './components/Header/Header';
