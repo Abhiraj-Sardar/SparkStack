@@ -1,13 +1,11 @@
-import React,{useState} from "react";
-import './MobileCard.css';
-import Header from "../Header/Header";
-import GadgetNav from "./GadgetNav";
-import MobileData from "./GadgetData/MobileData";
-
-const MobileCard = () => {
+import React,{useState} from 'react'
+import Header from '../Header/Header';
+import GadgetNav from './GadgetNav';
+import MobileData from './GadgetData/MobileData';
+const PcCard = () => {
     const [mobileData]=useState(MobileData);
-    return (
-        <>
+  return (
+    <>
         <Header/>
             <div className="row">
                 <div className="col-2">
@@ -98,6 +96,7 @@ const MobileCard = () => {
                 </div>
             </div>
         </>
-    );
+  )
 }
-export default MobileCard;
+
+export default PcCard
