@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './components/Home/Home';
 import Feature from './components/Article/Feature';
 import Facts from './components/Facts/Facts';
+import AI from './components/Home/AI/AI';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
 
             <Route exact path="/" element={<><Header/><Home/></>}></Route>
+            <Route exact path="/Home/AI" element={<><Header/><AI/></>}></Route>
             <Route exact path="/Byto" element={<Byto/>}></Route>
             <Route exact path="/WikiPedia" element={<WikiPedia/>}></Route>
             <Route exact path="/TechJobs" element={<JobPortal/>}></Route>

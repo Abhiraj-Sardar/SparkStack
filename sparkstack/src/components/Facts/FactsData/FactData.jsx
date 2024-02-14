@@ -1,78 +1,78 @@
 const FactData=[
     {
-        "id": 1,
-        "title": "tech1",
-        "vdoUrl": "https://youtu.be/ZSiXZxVpVhs?si=V1EMspey1VT-58uF"
+        id: 1,
+        title: "Custom Chatbot to a Website",
+        vdoUrl: "https://www.youtube.com/embed/C8HhC-h3W_I?si=BENaMhOegRHNBdNz"
     },
     {
-        "id": 2,
-        "title": "tech2",
-        "vdoUrl": "https://youtu.be/4qVRFgRcFkk?si=19ROCOSDqasqSqHB"
+        id: 2,
+        title: "Logic Building for Programming",
+        vdoUrl: "https://www.youtube.com/embed/gCFkkYZSxOc?si=FKWTwUWRDgyOSSMf"
     },
     {
-        "id": 3,
-        "title": "tech3",
-        "vdoUrl": "https://youtu.be/Og-jXIefbfg?si=TVYgzeZYvs0V-g91"
+        id: 3,
+        title: "AI Chatbot",
+        vdoUrl: "https://www.youtube.com/embed/RpWeNzfSUHw?si=E6lsBciZga3QuEnd"
     },
     {
-        "id": 4,
-        "title": "tech4",
-        "vdoUrl": "https://youtu.be/Ktf4b6DDqp0?si=66sRNONyo5hrlJQ1"
+        id: 4,
+        title: "ReactJs Tips",
+        vdoUrl: "https://www.youtube.com/embed/7DrYVZxf25Q?si=M8vtJCHxYV0-Yc1s"
     },
     {
-        "id": 5,
-        "title": "tech5",
-        "vdoUrl": "https://youtu.be/ZQNCClmNC7Y?si=dERUPuw2b_Jse2qZ"
+        id: 5,
+        title: "Redux Toolkit",
+        vdoUrl: "https://www.youtube.com/embed/XwGNhppX4as?si=D9ZUxrEM1bnA2zDl"
     },
     {
-        "id": 6,
-        "title": "tech6",
-        "vdoUrl": "https://youtu.be/38XpVgPj3tM?si=ttjOeE9elV99uzEE"
+        id: 6,
+        title: "NextJs",
+        vdoUrl: "https://www.youtube.com/embed/XOGVN2uxtJI?si=4KVHaWAPciluau8m"
     },
     {
-        "id": 7,
-        "title": "tech7",
-        "vdoUrl": "https://youtu.be/iGW4btk34yQ?si=xOtYIFNKZudACWvs"
+        id: 7,
+        title: "How to Use Oracle Cloud",
+        vdoUrl: "https://www.youtube.com/embed/NKc3k7xceT8?si=ODa6Me36SCjTydmq"
     },
     {
-        "id": 8,
-        "title": "tech8",
-        "vdoUrl": "https://youtu.be/08myo1UdTZ8?si=o3Em7VX55veEt2V6"
+        id: 8,
+        title: "C++ Game",
+        vdoUrl: "https://www.youtube.com/embed/y27SHJh706A?si=htQO77s9FWUMHOwa"
     },
     {
-        "id": 9,
-        "title": "tech9",
-        "vdoUrl": "https://youtu.be/Cmh9D1pCqvY?si=0BcdDMxVFLyyKSmQ"
+        id: 9,
+        title: "NodeJs Explained",
+        vdoUrl: "https://www.youtube.com/embed/_eJ6KAb56Gw?si=6iTrO1FODLpCsi9p"
     },
     {
-        "id": 10,
-        "title": "tech10",
-        "vdoUrl": "https://youtu.be/mmkIX44VN1Q?si=vn1_Ossuyhz1eyux"
+        id: 10,
+        title: "Master Anything Faster",
+        vdoUrl: "https://www.youtube.com/embed/s8BQ5Suab6Y?si=0AlthGT8xSCZGI6b"
     },
     {
-        "id": 11,
-        "title": "tech11",
-        "vdoUrl": "https://youtu.be/lST54thCR3k?si=SlD4kPuuMmzaFVn3"
+        id: 11,
+        title: "Express And MongoDb",
+        vdoUrl: "https://www.youtube.com/embed/iZyji1Wapms?si=V01U3Q5Hjc79F_Xb"
     },
     {
-        "id": 12,
-        "title": "tech12",
-        "vdoUrl": "https://youtu.be/ncnUGcEhPec?si=g4lyE8F_6vYOGFVc"
+        id: 12,
+        title: "5 Maths Skill Everyone Need",
+        vdoUrl: "https://www.youtube.com/embed/iF0I2SPk5JU?si=MH8h6rBUziSt6XV-"
     },
     {
-        "id": 13,
-        "title": "tech13",
-        "vdoUrl": "https://youtu.be/_vA7GHjpw4s?si=50aYm4zKePY4t6kG"
+        id: 13,
+        title: "Git",
+        vdoUrl: "https://www.youtube.com/embed/aolI_Rz0ZqY?si=I_uu67TYiCzi_EK2"
     },
     {
-        "id": 14,
-        "title": "tech14",
-        "vdoUrl": "https://youtu.be/wLk2xRzhbjk?si=9yI0xxGDmuODi5gW"
+        id: 14,
+        title: "Master DS and Algo",
+        vdoUrl: "https://www.youtube.com/embed/s2mYsPWzLjg?si=fBqjYlb1DHI9iEjd"
     },
     {
-        "id": 15,
-        "title": "tech15",
-        "vdoUrl": "https://youtu.be/DRwB5Nvnpe4?si=JsCBvI674W1kH5hU"
+        id: 15,
+        title: "Complete Roadmap",
+        vdoUrl: "https://www.youtube.com/embed/TR7AGmey1C8?si=1osb5usyFqCMIhAy"
     }
    
 ]

@@ -1,0 +1,51 @@
+.facts-container{
+    /* border:2px solid black; */
+    height:fit-content;
+    /* background: linear-gradient(#eee,grey); */
+}
+
+.left-menu{
+    /* background-color: red; */
+    background: linear-gradient(#eee,grey);
+    height:100vh;
+    position:fixed;
+    text-align: center;
+}
+
+.left-menu button{
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: transparent;
+    font-size: large;
+    border-radius:7%;
+    padding:5px 40px;
+    border:none;
+    margin-bottom:12px;
+}
+
+
+.left-menu button:hover{
+    background: linear-gradient(#fff,#333);
+    color: #eee;
+}
+
+.left-menu button:focus{
+    background: linear-gradient(#fff,#333);
+    color: #eee;
+}
+
+.fact-videos{
+    /* background-color: forestgreen; */
+    margin-left: 16rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding-top: 12px;
+}
+
+.video-container{
+    /* border: 2px solid salmon; */
+    /* height:350px; */
+    height: auto;
+}

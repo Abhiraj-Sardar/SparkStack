@@ -28,12 +28,10 @@ const Header = () => {
                             <li className="nav-item dropdown">
                             <NavLink to={'/'} className={"navigation"}>Home</NavLink>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item item" href="#">AI</a>
-                                    <a className="dropdown-item item" href="#">Web Development</a>
-                                    <a className="dropdown-item item" href="#">SDE</a>
-                                    <a className="dropdown-item item" href="#">Tech Giants</a>
-                                    <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item item" href="#">Sign out</a>
+                                   <NavLink to={'/Home/AI'} className={"navigation"}>AI</NavLink>
+                                   <NavLink to={'/Home/WebDev'} className={"navigation"}>Web Development</NavLink>
+                                   <NavLink to={'/Home/SDE'} className={"navigation"}>SDE</NavLink>
+                                   <NavLink to={'/Home/TechGiants'} className={"navigation"}>Tech Giants</NavLink>
                                 </div>
                             </li>
 
