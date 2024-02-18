@@ -33,7 +33,7 @@ export default function Feature() {
 
         <div className="banner-sub-content">
             <div className="hot-topic">
-                <img src="images/banner-news-1.jpg" alt=""/>
+                <img src="https://techcrunch.com/wp-content/uploads/2023/12/openai-sam-altman.jpg?w=430&h=230&crop=1" alt=""/>
 
                 <div className="hot-topic-content">
                     <h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
@@ -46,7 +46,7 @@ export default function Feature() {
             </div>
 
             <div className="hot-topic">
-                <img src="images/banner-news-2.jpg" alt=""/>
+                <img src="https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1173094810-e1687944113166.jpg?w=430&h=230&crop=1" alt=""/>
 
                 <div className="hot-topic-content">
                     <h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
@@ -59,7 +59,7 @@ export default function Feature() {
             </div>
 
             <div className="hot-topic">
-                <img src="images/banner-news-3.jpg" alt=""/>
+                <img src="https://techcrunch.com/wp-content/uploads/2024/02/nootti-app-store.jpg?w=430&h=230&crop=1" alt=""/>
 
                 <div className="hot-topic-content">
                     <h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
@@ -72,7 +72,7 @@ export default function Feature() {
             </div>
 
             <div className="hot-topic">
-                <img src="images/banner-news-4.jpg" alt=""/>
+                <img src="https://techcrunch.com/wp-content/uploads/2023/07/Threads-GettyImages-1524134312.jpg?w=430&h=230&crop=1" alt=""/>
 
                 <div className="hot-topic-content">
                     <h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
@@ -93,7 +93,7 @@ export default function Feature() {
             <h2>Top Stories</h2>
             <div className="container-top-left">
                 <article>
-                    <img src="images/top-left.jpg"/>
+                    <img src="https://techcrunch.com/wp-content/uploads/2020/08/fortnite-epic-GettyImages-957063528.jpg?w=430&h=230&crop=1"/>
 
                     <div>
                         <h3>Best Used Cars Under $20, 000 for families</h3>
@@ -108,7 +108,7 @@ export default function Feature() {
             
             <div className="container-top-left">
                 <article>
-                    <img src="images/top-left.jpg"/>
+                    <img src="https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1207206237.jpg?w=430&h=230&crop=1"/>
 
                     <div>
                         <h3>Best Used Cars Under $20, 000 for families</h3>
@@ -123,7 +123,7 @@ export default function Feature() {
 
             <div className="container-bottom-left">
                 <article>
-                    <img src="images/bottom-left-1.jpg"/>
+                    <img src="https://techcrunch.com/wp-content/uploads/2021/04/GettyImages-1231467577.jpg?w=430&h=230&crop=1"/>
                     <div>
                         <h3>Best smart speakers for the year</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.

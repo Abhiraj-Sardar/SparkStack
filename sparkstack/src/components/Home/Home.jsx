@@ -11,11 +11,11 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="sn-container">
-                                <div className="sn-img">
+                                <div className="sn-img mb-2">
                                     <img src="home/Mozilla.webp" />
                                 </div>
+                                    <h1 className="sn-title mt-1">Mozilla downsizes as it refocuses on Firefox and AI: Read the memo</h1>
                                 <div className="sn-content">
-                                    <h1 className="sn-title">Mozilla downsizes as it refocuses on Firefox and AI: Read the memo</h1>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie, lorem eu eleifend bibendum, augue purus mollis sapien, non rhoncus eros leo in nunc. Donec a nulla vel turpis consectetur tempor ac vel justo. In hac habitasse platea dictumst. Cras nec sollicitudin eros. Nunc eu enim non turpis sagittis rhoncus consectetur id augue. Mauris dignissim neque felis. Phasellus mollis mi a pharetra cursus. Maecenas vulputate augue placerat lacus mattis, nec ornare risus sollicitudin.
                                     </p>
@@ -155,7 +155,7 @@ function Home() {
                                             <div id="featured" className="container tab-pane active">
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-1.jpg" />
+                                                        <img src="https://i.gadgets360cdn.com/large/GoPro_Fusion_thumb_ndtv_1517989752334.jpg?downsize=160:120&output-quality=80&output-format=webp" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -163,7 +163,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-2.jpg" />
+                                                        <img src="https://i.gadgets360cdn.com/large/twitter_apple_tv_360_small_1495713671536.jpeg?downsize=160:120&output-quality=80&output-format=webp" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -171,7 +171,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-3.jpg" />
+                                                        <img src="https://i.gadgets360cdn.com/large/bose_soundlink_revolve_speakers_small_1495198419905.jpeg?downsize=160:120&output-quality=80&output-format=webp" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -179,7 +179,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-4.jpg" />
+                                                        <img src="https://i.gadgets360cdn.com/large/orbital_atk_naa_small_1492248020029.jpg?downsize=160:120&output-quality=80&output-format=webp" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -187,7 +187,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-5.jpg" />
+                                                        <img src="https://i.gadgets360cdn.com/large/periscope_live_press_small_1482986642900.jpg?downsize=160:120&output-quality=80&output-format=webp" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -197,7 +197,7 @@ function Home() {
                                             <div id="popular" className="container tab-pane fade">
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-4.jpg" />
+                                                        <img src="https://i.gadgets360cdn.com/large/iball_compbook_thumb_1482820660426.jpg?downsize=160:120&output-quality=80&output-format=webp" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -205,7 +205,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-3.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/viveport_beta_small.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -214,7 +214,7 @@ function Home() {
                                                 <div className="tn-news">
                                                     <div className="tn-img">
                   
-                                                        <img src="img/news-350x223-2.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/gadgets/thumb/samsung_gear_vr_flickr_nan_palmero_thumb.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -222,7 +222,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-1.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/360_video_fad_thumb_ndtv.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -230,7 +230,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-2.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/youtube_android_app_logo_small.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -240,7 +240,7 @@ function Home() {
                                             <div id="latest" className="container tab-pane fade">
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-3.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/Ricoh_Theta_S_thumb_ndtv.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -248,7 +248,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-4.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/bunch_youtube_pixabay_small.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -256,7 +256,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-5.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/bunch_youtube_pixabay_small.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -264,7 +264,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-4.jpg" />
+                                                        <img src="https://c.ndtvimg.com/2022-08/25dtvcno_gadgets_640x480_06_August_22.jpg?downsize=180:*" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -272,7 +272,7 @@ function Home() {
                                                 </div>
                                                 <div className="tn-news">
                                                     <div className="tn-img">
-                                                        <img src="img/news-350x223-3.jpg" />
+                                                        <img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_reuters_small_123.jpg?downsize=160:120&output-quality=80&output-format=jpg" />
                                                     </div>
                                                     <div className="tn-title">
                                                         <a href="">Lorem ipsum dolor sit amet consec adipis elit</a>
@@ -285,7 +285,7 @@ function Home() {
 
                                 <div className="sidebar-widget">
                                     <div className="image">
-                                        <a href="https://htmlcodex.com"><img src="img/ads-2.jpg" alt="Image"/></a>
+                                        <a href="https://htmlcodex.com"><img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_reuters_small_123.jpg?downsize=160:120&output-quality=80&output-format=jpg" alt="Image"/></a>
                                     </div>
                                 </div>
 
@@ -306,7 +306,7 @@ function Home() {
 
                                 <div className="sidebar-widget">
                                     <div className="image">
-                                        <a href="https://htmlcodex.com"><img src="img/ads-2.jpg" alt="Image"/></a>
+                                        <a href="https://htmlcodex.com"><img src="https://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_reuters_small_123.jpg?downsize=160:120&output-quality=80&output-format=jpg" alt="Image"/></a>
                                     </div>
                                 </div>
 
