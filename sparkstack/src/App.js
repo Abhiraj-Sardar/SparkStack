@@ -15,6 +15,10 @@ import WebDev from './components/Home/WebDev/WebDev';
 import SDE from './components/Home/SDE/SDE';
 import TechGiants from './components/Home/TechGiants/TechGiants';
 import PcCard from './components/Gadgets/PcCard';
+import LaptopCard from './components/Gadgets/LaptopCard';
+import AudioCard from './components/Gadgets/AudioCard';
+import TabletCard from './components/Gadgets/TabletCard';
+import WearableCard from './components/Gadgets/WearableCard';
 
 function App() {
   return (
@@ -33,6 +37,10 @@ function App() {
             <Route exact path="/Facts" element={<Facts/>}></Route>
             <Route exact path="/Gadgets/Mobiles" element={<MobileCard/>}></Route>
             <Route exact path="/Gadgets/PC" element={<PcCard/>}></Route>
+            <Route exact path="/Gadgets/Laptop" element={<LaptopCard/>}></Route>
+            <Route exact path="/Gadgets/Audio" element={<AudioCard/>}></Route>
+            <Route exact path="/Gadgets/Tablets" element={<TabletCard/>}></Route>
+            <Route exact path="/Gadgets/Wearables" element={<WearableCard/>}></Route>
           </Routes>
         </BrowserRouter> 
   );

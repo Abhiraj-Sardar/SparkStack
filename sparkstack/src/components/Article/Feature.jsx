@@ -134,7 +134,7 @@ export default function Feature() {
                 </article>
 
                 <article>
-                    <img src="images/bottom-left-2.jpg"/>
+                    <img src="https://techcrunch.com/wp-content/uploads/2019/10/GettyImages-535059003.jpg?w=430&h=230&crop=1"/>
                     <div>
                         <h3>iPad Pro, reviewed: Has the iPad become my main computer now?</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
@@ -145,7 +145,7 @@ export default function Feature() {
                 </article>
 
                 <article>
-                    <img src="images/bottom-left-2.jpg"/>
+                    <img src="https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-936151416.jpg?w=430&h=230&crop=1"/>
                     <div>
                         <h3>iPad Pro, reviewed: Has the iPad become my main computer now?</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
@@ -169,7 +169,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-1.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2023/09/GettyImages-1470340715.jpg?w=430&h=230&crop=1"/>
             </article>
 
             <article>
@@ -181,7 +181,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-2.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2023/03/faraday-future-ff91.jpg?w=430&h=230&crop=1"/>
             </article>
 
             <article>
@@ -193,7 +193,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-3.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2020/07/GettyImages-1129068363.jpg?w=430&h=230&crop=1"/>
             </article>
 
             <article>
@@ -205,7 +205,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-4.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-1187270589.jpg?w=430&h=230&crop=1"/>
             </article>
 
             <article>
@@ -217,7 +217,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-5.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1245156419-e1671450368800.jpg?w=430&h=230&crop=1"/>
             </article>
 
             <article>
@@ -229,7 +229,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-5.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2024/02/Screenshot_2024-02-15_at_8.00.07-PM-transformed.png?w=430&h=230&crop=1"/>
             </article>
 
             <article>
@@ -241,7 +241,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-5.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2017/10/voice-assistants.png?w=430&h=230&crop=1"/>
             </article>
 
             <article>
@@ -253,7 +253,7 @@ export default function Feature() {
 
                     <a href="#">Read More <span></span></a>
                 </div>
-                <img src="images/right-5.jpg"/>
+                <img src="https://techcrunch.com/wp-content/uploads/2023/09/GettyImages-1574154948-e1695647511123.jpg?w=430&h=230&crop=1"/>
             </article>
         </section>
     </main>

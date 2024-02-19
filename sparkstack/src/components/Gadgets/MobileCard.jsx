@@ -3,9 +3,9 @@ import './MobileCard.css';
 import Header from "../Header/Header";
 import GadgetNav from "./GadgetNav";
 import MobileData from "./GadgetData/MobileData";
-
+import MobileBox from "./MobileBox";
 const MobileCard = () => {
-    const [mobileData]=useState(MobileData);
+    
     return (
         <>
         <Header/>
@@ -47,31 +47,7 @@ const MobileCard = () => {
 
 
                 <div className="center-side col-8">
-                    
-                    <h1>Mobile News</h1>
-                    <hr/>
-                    {
-                        mobileData.map((mobile)=>{
-                            return(
-                                <>
-                                <br />
-                                    <div className="gadget-card">
-                                        <div className="gadget-image">
-                                            <img src={mobile.image} height={144} alt="" />
-                                        </div>
-                                        <div className="gadget-desc">
-                                            <h4>{mobile.head}</h4>
-                                            <p>{mobile.author}</p>
-                                            <h5>MOBILES</h5>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <hr />
-                                </>
-                            )
-                        })
-                    }
-                    
+                    <MobileBox/>
                 </div>
 
 

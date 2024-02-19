@@ -1,10 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 import Header from '../Header/Header';
 import GadgetNav from './GadgetNav';
-import MobileData from './GadgetData/MobileData';
-import PcBox from './PcBox';
-const PcCard = () => {
-    const [mobileData]=useState(MobileData);
+import LaptopBox from "./LaptopBox";
+const LaptopCard = () => {
   return (
     <>
         <Header/>
@@ -46,9 +44,7 @@ const PcCard = () => {
 
 
                 <div className="center-side col-8">
-                    
-                    <PcBox/>
-                    
+                    <LaptopBox/>
                 </div>
 
 
@@ -78,4 +74,4 @@ const PcCard = () => {
   )
 }
 
-export default PcCard
+export default LaptopCard
