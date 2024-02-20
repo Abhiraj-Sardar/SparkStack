@@ -4,3 +4,13 @@ body{
   font-size: large;
   font-family: 'Times New Roman', Times, serif !important;
 }
+
+.dashboard-content{
+  margin: 0px;
+    padding: 0px;
+  overflow-x: hidden;
+  border-radius:20px;
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045F, #AA076B); 
+}

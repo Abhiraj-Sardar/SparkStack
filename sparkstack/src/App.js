@@ -1,11 +1,10 @@
 import './App.css';
 import JobPortal from './components/TechnicalJobs/JobPortal';
 import WikiPedia from './components/Wikipedia/WikiPedia';
-// import Dashboard from './Admin/Dashboard/Dashboard';
+import Dashboard from './Admin/Dashboard/Dashboard';
 import Byto from "./components/Byto/Byto"
 import Header from './components/Header/Header';
 import MobileCard from "./components/Gadgets/MobileCard";
-// import Article from './components/Article/Article';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './components/Home/Home';
 import Feature from './components/Article/Feature';
@@ -19,11 +18,17 @@ import LaptopCard from './components/Gadgets/LaptopCard';
 import AudioCard from './components/Gadgets/AudioCard';
 import TabletCard from './components/Gadgets/TabletCard';
 import WearableCard from './components/Gadgets/WearableCard';
-
+import Web from './Admin/Dashboard/Web';
+import TechJobs from './Admin/Dashboard/TechJobs';
+import AdminAi from './Admin/Dashboard/AdminAi';
+import AdminSDE from './Admin/Dashboard/AdminSDE';
+import AdminTechgiants from './Admin/Dashboard/AdminTechgiants';
+import AdminFacts from "./Admin/Dashboard/AdminFacts";
 function App() {
   return (
         <BrowserRouter>
           <Routes>
+            
             <Route exact path="/" element={<><Header/><Home/></>}></Route>
             <Route exact path="/Home/AI" element={<><Header/><AI/></>}></Route>
             <Route exact path="/Home/WebDev" element={<><Header/><WebDev/></>}></Route>
@@ -41,6 +46,16 @@ function App() {
             <Route exact path="/Gadgets/Audio" element={<AudioCard/>}></Route>
             <Route exact path="/Gadgets/Tablets" element={<TabletCard/>}></Route>
             <Route exact path="/Gadgets/Wearables" element={<WearableCard/>}></Route>
+
+            {/* <Route exact path="/Admin" element={<Dashboard/>}></Route> */}
+            <Route exact path="/Admin" element={<Dashboard/>}></Route>
+            <Route exact path="/Admin/AI" element={<AdminAi/>}></Route>
+            <Route exact path="/Admin/Web" element={<Web/>}></Route>
+            <Route exact path="/Admin/Sde" element={<AdminSDE/>}></Route>
+            <Route exact path="/Admin/Tgiants" element={<AdminTechgiants/>}></Route>
+            <Route exact path="/Admin/TechJobs" element={<TechJobs/>}></Route>
+            <Route exact path="/Admin/Mobile" element={<TechJobs/>}></Route>
+            <Route exact path="/Admin/Facts" element={<AdminFacts/>}></Route>
           </Routes>
         </BrowserRouter> 
   );

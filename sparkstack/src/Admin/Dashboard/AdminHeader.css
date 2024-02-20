@@ -6,10 +6,17 @@
 .header h5{
     color:#eee;
 }
+.profile{
+    /* border:2px solid black; */
+    width:20%;
+}
 .profile .img{
-    margin-top: 0.5rem;
+    position: absolute;
+    right: 12px;
+    top:12px;
 }
 
 .profile .img img{
     border-radius: 50%;
+    width:120px;
 }

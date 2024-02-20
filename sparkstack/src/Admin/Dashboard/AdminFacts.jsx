@@ -1,16 +1,17 @@
 import React from 'react'
 import AdminSidebar from './AdminSidebar'
-const TechJobs = () => {
-    return (
-        <div className="row">
+
+const AdminFacts = () => {
+  return (
+    <div className="row">
             <div className="col-2">
-                <AdminSidebar />
+                <AdminSidebar/>
             </div>
             <div className="col-10 dashboard-content">
-                <h1>Hello This is Technical jobs Part</h1>
+                <h1>Hello This is Facts </h1>
             </div>
         </div>
-    )
+  )
 }
 
-export default TechJobs
+export default AdminFacts

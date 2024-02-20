@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Cards.css";
-const Cards = () => {
-    return (
-        <div className="row container-fluid">
+import "./AdminCard.css"
+const AdminCard = () => {
+  return (
+    <div className="row container-fluid">
             <div className="col-12 ">
                 <div className="cards">
                     <div class="card">
@@ -42,7 +42,7 @@ const Cards = () => {
                 
             </div>
         </div>
-    )
+  )
 }
 
-export default Cards
+export default AdminCard
