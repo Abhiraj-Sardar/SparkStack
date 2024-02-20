@@ -2,4 +2,16 @@
     margin-top:32px;
    gap:1.2rem;
    display: flex;
+   opacity:0.8;
+}
+.card img{
+    background:transparent;
+    background-color: currentColor;
+}
+
+.card .card-body .btn{
+    border:2px solid black;
+    position: absolute;
+    bottom: 0;
+    margin-left: 4rem;
 }

@@ -6,16 +6,17 @@ const BarChart = ({ chartData }) => {
         <>
         <h3 className='text-center'>User Activity</h3>
     <div className="chart-container user-graph">
-      <Line style={{marginLeft:"2rem"}}
+      <Line
         data={chartData}
         options={{
           plugins: {
             title: {
               display: true,
-              text: "Users Gained between 2016-2020"
+              text: "Users Gained between 2000-2012",
+              color:"#fff",
             },
             legend: {
-              display: false
+              display: true
             }
           }
         }}
