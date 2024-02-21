@@ -4,7 +4,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import { AIDataUtil } from "../utils/AIDataUtil";
 import PieChart from './PieChart';
-
+import "./AdminAi.css"
 Chart.register(CategoryScale);
 
 const AdminAi = () => {
@@ -38,12 +38,62 @@ const AdminAi = () => {
       <AdminSidebar/>
     </div>
     <div className="col-10 dashboard-content ">
-      <PieChart aichartData={aiChartData}/>
-      <table class="table table-success table-striped-columns">
+      <h1 className='text-center'>AI Market Share</h1>
+      <div className="row pie-table-container">
+        <div className="col-6">
+          <PieChart aichartData={aiChartData}/>
+        </div>
+        <div className="col-6 Ai-table">
+        <table className="table  table-success table-striped-columns">
         <thead>
           <th>Headline</th>
+          <th>Author</th>
+          <th>Resources</th>
+          <th>Popularity</th>
         </thead>
+        <tbody>
+          <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+          </tr>
+          <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+          </tr>
+          <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+          </tr>
+          <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+          </tr>
+          <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+          </tr>
+          <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+          </tr>
+        </tbody>
       </table>
+        </div>
+      </div>
+      
+      
     </div>
   </div>
   )

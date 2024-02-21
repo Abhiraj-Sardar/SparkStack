@@ -24,6 +24,7 @@ import AdminAi from './Admin/Dashboard/AdminAi';
 import AdminSDE from './Admin/Dashboard/AdminSDE';
 import AdminTechgiants from './Admin/Dashboard/AdminTechgiants';
 import AdminFacts from "./Admin/Dashboard/AdminFacts";
+import Mobile from './Admin/Dashboard/Mobile';
 function App() {
   return (
         <BrowserRouter>
@@ -54,7 +55,7 @@ function App() {
             <Route exact path="/Admin/Sde" element={<AdminSDE/>}></Route>
             <Route exact path="/Admin/Tgiants" element={<AdminTechgiants/>}></Route>
             <Route exact path="/Admin/TechJobs" element={<TechJobs/>}></Route>
-            <Route exact path="/Admin/Mobile" element={<TechJobs/>}></Route>
+            <Route exact path="/Admin/Mobile" element={<Mobile/>}></Route>
             <Route exact path="/Admin/Facts" element={<AdminFacts/>}></Route>
           </Routes>
         </BrowserRouter> 

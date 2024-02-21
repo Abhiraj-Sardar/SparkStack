@@ -1,0 +1,10 @@
+.Ai-table{
+    margin-top: 70px;
+    
+}
+.pie-table-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+}
+

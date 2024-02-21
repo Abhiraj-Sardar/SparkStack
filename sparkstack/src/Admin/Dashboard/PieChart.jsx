@@ -4,7 +4,6 @@ import "./PieChart.css"
 const PieChart = ({ aichartData }) => {
   return (
     <>
-    <h3 className='text-center'>Pie Chart</h3>
     <div className="chart-container user-pie">
       
       <Pie

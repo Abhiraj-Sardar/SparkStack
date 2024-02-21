@@ -10,7 +10,7 @@
 }
 
 .card .card-body .btn{
-    border:2px solid black;
+    /* border:2px solid black; */
     position: absolute;
     bottom: 0;
     margin-left: 4rem;
