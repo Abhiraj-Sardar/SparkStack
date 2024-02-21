@@ -41,6 +41,7 @@ function App() {
             <Route exact path="/Gadgets" element={<MobileCard/>}></Route>
             <Route exact path="/Articles" element={<Feature/>}></Route>
             <Route exact path="/Facts" element={<Facts/>}></Route>
+            
             <Route exact path="/Gadgets/Mobiles" element={<MobileCard/>}></Route>
             <Route exact path="/Gadgets/PC" element={<PcCard/>}></Route>
             <Route exact path="/Gadgets/Laptop" element={<LaptopCard/>}></Route>

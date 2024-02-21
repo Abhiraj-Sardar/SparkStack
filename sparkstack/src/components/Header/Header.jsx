@@ -12,7 +12,7 @@ const Header = () => {
                 
 
                 <div className="d-flex align-items-center mr-3">
-                            <img src="img/logo1.png" className="logo img-fluid" alt="Logo" />
+                            <img src="logo1.png" className="logo img-fluid" alt="Logo" />
                             <span className="heading">SparkStack</span>
                         </div>
                         

@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import GadgetNav from './GadgetNav';
 import MobileData from './GadgetData/MobileData';
 import PcBox from './PcBox';
+
 const PcCard = () => {
     const [mobileData]=useState(MobileData);
   return (
