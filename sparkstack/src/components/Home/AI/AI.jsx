@@ -1,5 +1,6 @@
 import React from 'react'
 import "../index_home.css";
+import Footer from '../../Footer/Footer';
 const AI = () => {
   return (
     <div>
@@ -327,7 +328,7 @@ const AI = () => {
                 </div>
             </div>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
         </>
     </div>
   )

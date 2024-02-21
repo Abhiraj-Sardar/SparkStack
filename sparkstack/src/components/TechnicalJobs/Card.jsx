@@ -5,7 +5,7 @@ const Card = (props) => {
         <div class="jobcard">
             <div class="jobcard-body">
                 <div class="company-name">
-                    <img src={props.pic}/> 
+                    <img src={props.pic} alt="card img"/> 
                     <span>{props.company}</span>
                 </div>
                 <div className="role">{props.role}</div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from '../../Footer/Footer'
 const TechGiants = () => {
   return (
     <div>
@@ -327,7 +327,7 @@ const TechGiants = () => {
                 </div>
             </div>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
         </>
     </div>
   )

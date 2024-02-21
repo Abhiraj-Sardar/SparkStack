@@ -25,6 +25,7 @@ import AdminSDE from './Admin/Dashboard/AdminSDE';
 import AdminTechgiants from './Admin/Dashboard/AdminTechgiants';
 import AdminFacts from "./Admin/Dashboard/AdminFacts";
 import Mobile from './Admin/Dashboard/Mobile';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
         <BrowserRouter>
@@ -38,16 +39,16 @@ function App() {
             <Route exact path="/Byto" element={<Byto/>}></Route>
             <Route exact path="/WikiPedia" element={<WikiPedia/>}></Route>
             <Route exact path="/TechJobs" element={<JobPortal/>}></Route>
-            <Route exact path="/Gadgets" element={<MobileCard/>}></Route>
+            <Route exact path="/Gadgets" element={<><MobileCard/><Footer/></>}></Route>
             <Route exact path="/Articles" element={<Feature/>}></Route>
             <Route exact path="/Facts" element={<Facts/>}></Route>
-            
-            <Route exact path="/Gadgets/Mobiles" element={<MobileCard/>}></Route>
-            <Route exact path="/Gadgets/PC" element={<PcCard/>}></Route>
-            <Route exact path="/Gadgets/Laptop" element={<LaptopCard/>}></Route>
-            <Route exact path="/Gadgets/Audio" element={<AudioCard/>}></Route>
-            <Route exact path="/Gadgets/Tablets" element={<TabletCard/>}></Route>
-            <Route exact path="/Gadgets/Wearables" element={<WearableCard/>}></Route>
+
+            <Route exact path="/Gadgets/Mobiles" element={<><MobileCard/><Footer/></>}></Route>
+            <Route exact path="/Gadgets/PC" element={<><PcCard/><Footer/></>}></Route>
+            <Route exact path="/Gadgets/Laptop" element={<><LaptopCard/><Footer/></>}></Route>
+            <Route exact path="/Gadgets/Audio" element={<><AudioCard/><Footer/></>}></Route>
+            <Route exact path="/Gadgets/Tablets" element={<><TabletCard/><Footer/></>}></Route>
+            <Route exact path="/Gadgets/Wearables" element={<><WearableCard/><Footer/></>}></Route>
 
             {/* <Route exact path="/Admin" element={<Dashboard/>}></Route> */}
             <Route exact path="/Admin" element={<Dashboard/>}></Route>

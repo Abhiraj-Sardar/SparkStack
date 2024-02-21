@@ -3,6 +3,7 @@ import Sidebar from './Sidebar'
 import "./JobPortal.css";
 import Header from '../Header/Header';
 import Jobs from './Jobs';
+import Footer from '../Footer/Footer';
 
 const JobPortal = () => {
   return (
@@ -18,6 +19,7 @@ const JobPortal = () => {
             </div>
         </div>
     </div>
+    <Footer/>
     </>
   )
 }

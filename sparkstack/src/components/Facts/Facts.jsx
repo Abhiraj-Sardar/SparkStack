@@ -2,9 +2,11 @@ import React,{useState} from 'react'
 import Header from '../Header/Header'
 import "./Facts.css"
 import FactData from './FactsData/FactData'
+import Footer from '../Footer/Footer'
 const Facts = () => {
   const [factData]=useState(FactData);
   return (
+    <>
     <div>
       <Header />
       <div className="container-fluid facts-container">
@@ -33,7 +35,9 @@ const Facts = () => {
           </div>
         </div>
       </div>
+      
     </div>
+    </>
   )
 }
 

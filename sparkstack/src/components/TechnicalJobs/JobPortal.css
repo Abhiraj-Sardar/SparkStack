@@ -1,6 +1,6 @@
 #sidebar {
-    background-color: #343a40;
-    color: #ffffff;
+    background:linear-gradient(to top,#fff,#333);
+    color: #333;
     height: 100vh;
 }
 

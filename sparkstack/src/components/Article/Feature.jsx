@@ -1,6 +1,7 @@
 import React from 'react'
 import './feature.css'
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 export default function Feature() {
   return (
@@ -258,6 +259,7 @@ export default function Feature() {
         </section>
     </main>
     </div>
+    <Footer/>
     </>
   )
 }

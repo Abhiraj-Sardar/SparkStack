@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Byto.css";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 const Byto = () =>{
     return(
@@ -213,6 +214,7 @@ const Byto = () =>{
                 </div>
 
             </div>
+            <Footer/>
         </>
     )
 }

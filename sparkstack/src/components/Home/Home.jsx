@@ -51,7 +51,7 @@ function Home() {
                                         <div className="sn-img">
                                             <img src="home/tiktok.webp" />
                                             <div className="sn-title">
-                                                <a href="">Interdum et fames ac ante</a>
+                                                <a href="#">Interdum et fames ac ante</a>
                                             </div>
                                         </div>
                                     </div>
@@ -328,7 +328,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
         </>
 
     )
