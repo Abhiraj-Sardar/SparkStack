@@ -41,14 +41,14 @@ const Byto = () =>{
                                 </div>
                             </div>
 
-                            <div className="dropdown  dropdown-byto">
-                                <li className="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</li>
-                                <div class="dropdown-menu menu1" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </div>
+                                {/* <div className="dropdown  dropdown-byto">
+                                    <li className="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</li>
+                                    <div class="dropdown-menu menu1" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div> */}
                             </ul>
                         </nav>
                     </div>

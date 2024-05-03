@@ -1,5 +1,5 @@
 .jobcard{
-    height:18rem;
+    height:19rem;
     width: 30%;
     border: 2px solid black;
     border-radius: 5%;
@@ -15,7 +15,7 @@
 
 .jobcard .company-name{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 34px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
@@ -27,16 +27,18 @@
 
 .jobcard .role{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
+    font-size: 18px;
     text-align: center;
 
 }
 
 .jobcard .location{
+    margin-top: 2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     padding-left: 12px;
     margin-bottom: 7px;
+    /* border:2px solid black; */
 }
 
 .jobcard .job-type{
@@ -47,7 +49,7 @@
 }
 
 .jobcard .tags{
-    width:20%;
+    /* width:20%; */
     margin-left: 12px;
 }
 

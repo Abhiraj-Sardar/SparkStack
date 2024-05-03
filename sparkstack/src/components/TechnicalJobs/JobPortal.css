@@ -1,7 +1,7 @@
 #sidebar {
     background:linear-gradient(to top,#fff,#333);
     color: #333;
-    height: 100vh;
+    height: 120vh;
 }
 
 .selectpicker option:focus{
